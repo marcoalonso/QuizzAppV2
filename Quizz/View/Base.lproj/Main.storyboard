@@ -16,21 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="degradado azul" translatesAutoresizingMaskIntoConstraints="NO" id="pgU-6Q-VuP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="degradado" translatesAutoresizingMaskIntoConstraints="NO" id="pgU-6Q-VuP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puntaje : 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaZ-yf-H3I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaZ-yf-H3I">
                                 <rect key="frame" x="16" y="39" width="347" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="papa" translatesAutoresizingMaskIntoConstraints="NO" id="msm-70-D3W">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="msm-70-D3W">
                                 <rect key="frame" x="16" y="132" width="339" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Los nativos americanos solian enterrar su armas cuando hacían las pases con sus enemigos." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-ZZ-k79">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-ZZ-k79">
                                 <rect key="frame" x="16" y="329" width="358" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -87,6 +87,7 @@
                             <constraint firstItem="pgU-6Q-VuP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nvK-ez-N1O"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="lZ9-a5-hAF"/>
                     <connections>
                         <outlet property="botonFalso" destination="n7X-G3-knB" id="egd-6L-bwf"/>
                         <outlet property="botonVerdadero" destination="XYl-Vz-n2R" id="qcQ-3Y-eIw"/>
@@ -98,12 +99,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.84615384615384" y="-28.436018957345969"/>
+            <point key="canvasLocation" x="897.10144927536237" y="71.651785714285708"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dhW-AN-hZE">
+            <objects>
+                <viewController id="1L8-sJ-aCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lOI-xW-svY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe tu nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKd-zP-coa">
+                                <rect key="frame" x="47" y="73" width="316" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FYp-GL-yuN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MKd-zP-coa" firstAttribute="top" secondItem="FYp-GL-yuN" secondAttribute="top" constant="25" id="Fxv-Ej-4fd"/>
+                            <constraint firstItem="MKd-zP-coa" firstAttribute="leading" secondItem="FYp-GL-yuN" secondAttribute="leading" constant="47" id="uEB-tS-6W0"/>
+                            <constraint firstItem="FYp-GL-yuN" firstAttribute="trailing" secondItem="MKd-zP-coa" secondAttribute="trailing" constant="51" id="uQW-jF-Bvo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EHf-ZU-iAC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1649.2753623188407" y="69.642857142857139"/>
         </scene>
     </scenes>
     <resources>
-        <image name="degradado azul" width="800" height="1422"/>
-        <image name="papa" width="755" height="530"/>
+        <image name="degradado" width="750" height="1331"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
